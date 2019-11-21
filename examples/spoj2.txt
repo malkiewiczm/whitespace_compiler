@@ -1,0 +1,46 @@
+void main()
+{
+	array A[10];
+	array B[5];
+	var test_cases = 24;
+	var i;
+	var k;
+	var tmp;
+	var ans;
+	while (test_cases) {
+		i = 0;
+		while (i - 10) {
+			getc(&A[i]);
+			i += 1;
+		}
+		getc(&tmp);
+		i = 0;
+		while (i - 5) {
+			getc(&B[i]);
+			i += 1;
+		}
+		ans = '0';
+		i = 0;
+		while (i - 6) {
+			tmp = 1;
+			k = 0;
+			while (k - 5) {
+				if (A[i + k] - B[k]) {
+					tmp = 0;
+				}
+				k += 1;
+			}
+			if (tmp) {
+				ans = '1';
+			}
+			i += 1;
+		}
+		putc(ans);
+		putc('\n');
+		test_cases -= 1;
+		if (test_cases) {
+			getc(&tmp);
+		}
+	}
+	exit();
+}

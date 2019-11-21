@@ -1,0 +1,13 @@
+void main()
+{
+	var x;
+	loop {
+		geti(&x);
+		if (x - 42) {
+			puti(x);
+			putc('\n');
+		} else {
+			exit();
+		}
+	}
+}

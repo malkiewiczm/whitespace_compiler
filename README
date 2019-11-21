@@ -1,0 +1,11 @@
+This is a compiler (or a transpiler) from a C like language to
+whitespace, an esoteric programming language that only uses spaces,
+tabs, and line feeds.
+
+https://en.wikipedia.org/wiki/Whitespace_%28programming_language%29
+
+https://web.archive.org/web/20151108084710/http://compsoc.dur.ac.uk/whitespace/tutorial.html
+
+https://vii5ard.github.io/whitespace/
+
+(original creation date Oct 20, 2019)
